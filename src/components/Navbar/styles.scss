@@ -1,0 +1,31 @@
+.navbar {
+  background-image: var(--navbar-shade); /* nav bar image */
+  background-size: cover;
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  height: 6rem;
+
+  .button-container {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns items vertically */
+
+    .header-text {
+      padding: 0.8rem;
+      font-size: 1.25rem;
+    }
+
+    .button {
+      background: transparent;
+      height: 45px;
+      padding: 1rem;
+
+      img {
+        width: 1.5rem;
+        height: auto; /* Maintain aspect ratio */
+      }
+    }
+  }
+}

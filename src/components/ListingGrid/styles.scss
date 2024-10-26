@@ -1,0 +1,44 @@
+.listing-grid-container {
+    padding: 5rem 0.2rem 30px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 30px;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+
+    .card-container {
+        padding: 0 0.5rem;
+
+        img {
+            padding-bottom: 0.25rem;
+            aspect-ratio: 2 / 3; /* Maintain Thumbnail Aspect Ratio */
+        }
+
+        .title-text {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 0.95rem;
+            overflow: hidden;
+
+            mark {
+                font-weight: 600; /* Highlighted text */
+            }
+        }
+    }
+}
+
+.load-error {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: yellow;
+}
+
+.search-result-error {
+    text-align: center;
+    margin: auto;
+    bottom: 0;
+    width: 75%;
+    font-size: 18px;
+    color: white;
+}

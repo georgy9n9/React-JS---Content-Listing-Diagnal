@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+  background-color: #171717;
+  color: #ffffff;
+  font-family: "Titillium Web", sans-serif; /* Global font */
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Placeholder Styles */
+::-webkit-input-placeholder {
+  font-size: smaller;
+  font-weight: 600;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Use a more intuitive box-sizing model */
+}
+
+* {
+  margin: 0; /* Remove default margin */
+}
+
+/* Media Defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%; /* Ensure responsive images */
+}
+
+/* Form Styles */
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Remove built-in form typography styles */
+}
+
+/* Text Overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; /* Avoid text overflows */
+}
+
+/* Stacking Context */
+#root,
+#__next {
+  isolation: isolate; /* Create a root stacking context */
+}
