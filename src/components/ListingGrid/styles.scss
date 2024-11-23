@@ -46,10 +46,3 @@
     font-size: 18px;
     color: white;
 }
-//issue fixes on scrolling for iphone
-@supports (-webkit-overflow-scrolling: touch) {
-    .navbar {
-      z-index: 1000;
-      pointer-events: auto;
-    }
-}
