@@ -27,6 +27,10 @@
     }
 }
 
+.scroll-container {
+    overscroll-behavior: none;
+}
+
 .load-error {
     text-align: center;
     bottom: 0;

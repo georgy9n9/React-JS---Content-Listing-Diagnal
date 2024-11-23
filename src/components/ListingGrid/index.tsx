@@ -29,7 +29,7 @@ const ListingGrid = () => {
           setCurrentPage(currentPage + 1);
         }}
         hasMore={currentPage !== TOTAL_NUMBER_OF_PAGES && !searchText}
-        className="listing-grid-container"
+        className="listing-grid-container scroll-container"
         scrollThreshold="400px"
       >
         {isSuccess &&
