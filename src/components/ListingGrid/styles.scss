@@ -46,3 +46,14 @@
     font-size: 18px;
     color: white;
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+    .navbar {
+      z-index: 1000;
+      pointer-events: auto;
+    }
+  
+    .scroll-container {
+      padding-top: 6rem; /* Adjust for navbar height */
+    }
+}
